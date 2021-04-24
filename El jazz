@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="iso-8859-1">
+ <style>
+        body {
+            background-color: rgb(255, 241, 243);
+margin-right: 7px;
+margin-bottom: 7px;
+margin-left: 7px;
+        }
+        table{
+            background-color: rgb(0, 0, 0);
+        }
+        td{
+           background-color: rgb(225, 355, 255); 
+           font-weight: bold;
+        }
+        th{
+            background-color: rgb(228, 245, 237);
+             font-family: "Helvetica", sans-serif;
+             color: rgb(87, 70, 87);
+        line-height: 1.6em;
+        border: 2px;
+        padding: 10px;
+        }
+ 
+        p, .maestro{
+            font-family: "Helvetica", sans-serif;
+            line-height: 1.5em;
+         
+        }
+        h1,h2 {
+            color: rgb(181, 109, 109);
+            font-size: 36px;
+            text-align: center;
+        }
+        
+        h3 { 
+            font-size: 1.5em;
+            text-align: left;
+            color: rgb(153, 147, 107);
+            
+        }
+        
+        #vínculo {
+            background-color: rgb(227, 232, 250);
+            font-style: italic;
+        }
+        
+        
+        .imguno, .imgdos, .imgtres {
+            width: 350px;
+            height: 350px;
+            float: right;
+            margin-left: 12px;
+             border: 8px groove;
+transition: width 2s, height 2s, background-color 2s, transform 2s;
+              }
+ #imguno:hover, #imgdos:hover, #imgtres:hover {
+                background-color: rgb(255, 242, 255);
+    transform: rotate(90deg);
+
+        }
+
+
+        #x, #xw, #xwy {
+        width: 800px;
+        margin: auto;
+        border: 9px solid rgb(115, 64, 64);
+        border-top: 30px solid rgb(230, 188, 161);
+        padding: 6px;
+        background: rgb(255, 253, 237);
+        overflow-x: auto;
+         }
+
+a {
+  background-color: rgb(240, 175, 240);
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: rgb(135, 245, 175);
+}
+a:link { color: rgb(251, 255, 15); }         
+a:active { color: rgb(100, 62, 207); }
+
+
+        </style>
+        
+<title>El jazz</title>
+</head>
+<body>
+<h1>El jazz</h1>
+<h3> <img class="imguno" src="https://www.seekpng.com/png/full/157-1575298_watercolor-jazz-saxophone-vector-images-of-musical-instruments.png">Contenidos</h3>
+<ul>
+<li><a href="#El inicio del jazz">El inicio del jazz</a></li>
+<li><a href="#Tipos de jazz">Tipos de jazz</a></li>
+<li><a href="#Transformación cultural">Transformación cultural</a></li>
+<li><a href="#Los instrumentos">Los instrumentos</a></li>
+<li><a href="#Maestros del jazz">Maestros del jazz</a></li>
+</ul>
+<h2 id="El inicio del jazz">El inicio del jazz</h2>
+<p>Nick LaRocca, estadounidense, tuvo el honor de darle vida al jazz, género que <em>nació a finales del siglo XIX</em> y se haría conocido a principios del siglo XX. El jazz es un conjunto de géneros, <strong>basado en la armonía y ritmos provenientes de la cultura afroamericana, y su mayor parte melódica e instrumental de la música europea.</strong></p>
+<p class="el-inicio">Este género tiene como métodos <strong><em>la improvisación, el swing y los fraseos</em></strong> principalmente, y esto difiere en otros tipos de música, como la clásica.</p>
+<h2 id="Tipos de jazz">Tipos de jazz</h2>
+  <body>
+    <table border="6">
+            
+            <tbody>
+            <tr>
+            <td>Ragtime</td>
+            <th>Este ritmo es prácticamente nativo estadounidense, pero hace parte del jazz. Este no había estado completo, sino hasta cuando salió el disco de Maple Leaf Rag. Solo se tocaba con el piano.</th>
+            </tr>
+            <tr>
+            <td>Dixieland</td>
+            <th>Tiene sus comienzos en el sudeste de Estados Unidos. Las siglas "Dixie" hace referencia a "Lo Sur", a Nueva Orleans, ubicado en el estado de Luisiana, donde más se ha compuesto el jazz. </th>
+            </tr>
+            <tr>
+            <td>Nueva Orleans</td>
+            <th>Estilo principal del jazz. En este estilo comienza a componerse el jazz como un género musical, mezclado con otros ritmos.</th>
+            </tr>
+            <tr>
+            <td>Rhythm and blues clásico (R&B)</td>    
+            <th>Es un subgénero del jazz que tuvo sus inicios en los 50's, tuvo una evolución y comenzó a ser un género propio.</th>
+            </tr>
+            <tr>
+            <td>Soul y New Thing</td>
+            <th>Tuvo sus inicios cuando los derechos de los ciudadanos en Estados Unidos, se convierten en una legislación, y así, las personas de color podían dirigir los ensayos. Fue ganando fama y comenzó a expandirse. </th>
+            </tr>
+            <tr>
+            <td>Jazz contemporáneo</td> 
+            <th>Es el nuevo estilo del jazz, el actual. No usa como característica principal la improvisación, sino que controla un rítmo único. Es el más escuchado.</th>
+            </tr>
+            <tr>
+            <td>Swing</td>
+            <th>Los sonidos de las orquestas europeas fueron formando a este estilo, hasta que consiguió su ritmo oficial.</th>
+            </tr>
+            <tr>
+            <td>Bebop</td>
+            <th>La espontaneidad y la rapidez hacen parte de este ritmo. Originario de las personas de color, particularmente como es un estilo complejo, lo crean para que los blancos no pudieran tocarlo facilmente.</th>
+            </tr>
+            <tr>
+            <td>Cool Jazz</td>
+            <th>Lo clásico y calmado son sus principales características. Originario de las personas blancas.</th>
+            </tr>
+            <tr>
+            <td>Hard Bop</td>
+            <th>Tiene una combinación con el góspel y el blues. Es armónico, profesional y con notas precisas.</th>
+            </tr>
+            <tr>
+            <td>Free-Jazz</td>
+            <th>Como indica su nombre, "Free" hace referencia a la libertad rítmica que caracteriza a este estilo. Muchos músicos mantienen el estilo hasta hoy en día.</th>
+            </tr>
+            <tr>
+            <td>Jazz Fusión</td>
+            <th>Como su nombre lo menciona, es una mezcla o fusión con otros géneros como el rock, pop, jazz latino y jazz rap.</th>
+            </tr>
+            <tr>
+            <td>Jazz latino</td>
+            <th>Se combinan los géneros y ritmos de música originaria Brasil y Cuba.</th>
+            </tr>
+            
+            </tbody>
+        </table>
+    </body>
+<p id="vínculo">Enlace para ver la información completa: <a href="https://estilos-de.com/arte/jazz/#:~:text=Entre%20los%20tipos%20de%20jazz%20se%20encuentran%20el,presentan%20los%20estilos%20de%20jazz%20danzas%20m%C3%A1s%20comunes%3A">Tipos de jazz</a></p>
+
+<div id="x">
+<h2 id="Transformación cultural">Transformación cultural</h2><img class="imgdos" src="https://i1.wp.com/afrofeminas.com/wp-content/uploads/2015/06/wesley-snipes-by-nigel-parry.jpg?ssl=1">
+<p>Se le ha atribuído al jazz un concepto negativo y racial, ya que al tener descendencia afroamericana se le categorizó en sus inicios como la música típica de bares, tabernas, y sitios nocturnos de poca aceptación social. Sin embargo, el jazz fue adquiriendo gran aceptación gracias a su versatilidad, a sus magistrales interpretaciones, y así ganarse un reconocimiento mundial.</p></div>
+<div id="xwy">
+<h2 id="Los instrumentos">Los instrumentos</h2> <img class="imgtres" src="https://thumbs.dreamstime.com/b/los-instrumentos-musicales-del-funcionamiento-cl%C3%A1sico-jazz-aislaron-el-ejemplo-plano-determinado-vector-dise%C3%B1o-fijaron-aislado-140453126.jpg">
+<p>Los instrumentos que se utilizan en este género son principalmente de viento o aire, como por ejemplo, la trompeta, clarinete, flauta, trombón, fliscorno, tuba, corneta, saxofón...<br> El piano también se hace presente en esta música, e instrumentos de percusión, como, el teclado, sintetizadores, vibráfono, bateria y piano.<br>
+Por último instrumentos de cuerda, como, el banjo, bajo, bajo eléctrico, mandolina, guitarra y violín.<br></p>
+<p id="vínculo">Enlace para ver la información completa: <a href="https://xativamusical.com/los-instrumentos-mas-tipicos-del-jazz/#:~:text=Los%20instrumentos%20que%20predominan%20en%20el%20jazz%20son,bajo%2C%20bajo%20el%C3%A9ctrico%2C%20banjo%2C%20guitarra%2C%20viol%C3%ADn%20y%20mandolina.">Los instrumentos</a></p></div>
+
+<div id="xw">
+<h2 id="Maestros del jazz">Maestros del jazz</h2>
+<ul class="maestro">
+<li>Louis Armstrong: fue uno de los creadores de este género.</li>
+<li>John Coltrane: saxofonista, representante del Free-Jazz.</li>
+<li>Mile Davis:fue uno de los máximos exponentes del jazz.</li>
+<li>Billie Holiday: cantante y una de las más influyentes del género.</li>
+<li>Duke Ellintong: pianista, compositor, arreglista y lider del genero.</li>
+<li>Charley Parker: compositor y saxofonista. Introdujo el Bebop que se caracteriza por la velocidad de los tiempos</li>
+<li>Thelonius Monk: pianista y compositor, estadounidense, considerado como uno de los más influyentes en el jazz. </li>
+<li>Count Basie: director de orquesta y pianista de jazz estadounidense.</li> 
+<li>Charley Mingus: contrabajista, pianista, compositor, director estadounidense y fiel activista contra el racismo.</li>
+<li>Dizzi Gillespie: trompetista.</li>
+</ul>
+<p id="vínculo">Enlace para ver la información completa: <a href="https://xativamusical.com/los-instrumentos-mas-tipicos-del-jazz/#:~:text=Los%20instrumentos%20que%20predominan%20en%20el%20jazz%20son,bajo%2C%20bajo%20el%C3%A9ctrico%2C%20banjo%2C%20guitarra%2C%20viol%C3%ADn%20y%20mandolina.">Maestros del jazz</a></p>
+</div>
+
+
+</body>
+</html>
